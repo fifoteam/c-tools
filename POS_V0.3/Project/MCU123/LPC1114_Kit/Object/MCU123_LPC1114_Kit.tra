@@ -1,0 +1,45 @@
+*** Creating Trace Output File '.\Object\MCU123_LPC1114_Kit.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\object\base.o"'
+### List of Objects: adding '".\object\nxp_lpc1114_302_m0_context.o"'
+### List of Objects: adding '".\object\nxp_lpc1114_302_m0_exception.o"'
+### List of Objects: adding '".\object\nxp_lpc1114_302_m0_schedule.o"'
+### List of Objects: adding '".\object\nxp_lpc1114_302_system_control_block.o"'
+### List of Objects: adding '".\object\nxp_lpc1114_302_system_timer.o"'
+### List of Objects: adding '".\object\nxp_lpc1114_302_nvic.o"'
+### List of Objects: adding '".\object\nxp_lpc1114_302_system_configuration.o"'
+### List of Objects: adding '".\object\nxp_lpc1114_302_io_configuration.o"'
+### List of Objects: adding '".\object\nxp_lpc1114_302_gpio.o"'
+### List of Objects: adding '".\object\nxp_lpc1114_302_counter_timer_16_bit.o"'
+### List of Objects: adding '".\object\nxp_lpc1114_302_uart.o"'
+### List of Objects: adding '".\object\nxp_lpc1114_302_iic.o"'
+### List of Objects: adding '".\object\nxp_lpc1114_302_adc.o"'
+### List of Objects: adding '".\object\mcu123_lpc1114_kit_core.o"'
+### List of Objects: adding '".\object\mcu123_lpc1114_kit_gpio.o"'
+### List of Objects: adding '".\object\mcu123_lpc1114_kit_counter_timer_16_bit.o"'
+### List of Objects: adding '".\object\mcu123_lpc1114_kit_uart.o"'
+### List of Objects: adding '".\object\mcu123_lpc1114_kit_iic.o"'
+### List of Objects: adding '".\object\mcu123_lpc1114_kit_adc.o"'
+### List of Objects: adding '".\object\mcu123_lpc1114_kit_idle.o"'
+### List of Objects: adding '".\object\mcu123_lpc1114_kit_led.o"'
+### List of Objects: adding '".\object\mcu123_lpc1114_kit_buzzer.o"'
+### List of Objects: adding '".\object\mcu123_lpc1114_kit_serial.o"'
+### List of Objects: adding '".\object\mcu123_lpc1114_kit_temperature_eeprom.o"'
+### List of Objects: adding '".\object\mcu123_lpc1114_kit_resistor.o"'
+### List of Objects: adding '".\object\mcu123_lpc1114_kit_main.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\object\base.o" ".\object\nxp_lpc1114_302_m0_context.o" ".\object\nxp_lpc1114_302_m0_exception.o" ".\object\nxp_lpc1114_302_m0_schedule.o" ".\object\nxp_lpc1114_302_system_control_block.o" ".\object\nxp_lpc1114_302_system_timer.o" ".\object\nxp_lpc1114_302_nvic.o" ".\object\nxp_lpc1114_302_system_configuration.o" ".\object\nxp_lpc1114_302_io_configuration.o" ".\object\nxp_lpc1114_302_gpio.o" ".\object\nxp_lpc1114_302_counter_timer_16_bit.o" ".\object\nxp_lpc1114_302_uart.o" ".\object\nxp_lpc1114_302_iic.o" ".\object\nxp_lpc1114_302_adc.o" ".\object\mcu123_lpc1114_kit_core.o" ".\object\mcu123_lpc1114_kit_gpio.o" ".\object\mcu123_lpc1114_kit_counter_timer_16_bit.o" ".\object\mcu123_lpc1114_kit_uart.o" ".\object\mcu123_lpc1114_kit_iic.o" ".\object\mcu123_lpc1114_kit_adc.o" ".\object\mcu123_lpc1114_kit_idle.o" ".\object\mcu123_lpc1114_kit_led.o" ".\object\mcu123_lpc1114_kit_buzzer.o" ".\object\mcu123_lpc1114_kit_serial.o" ".\object\mcu123_lpc1114_kit_temperature_eeprom.o" ".\object\mcu123_lpc1114_kit_resistor.o" ".\object\mcu123_lpc1114_kit_main.o" --scatter ".\Scatter\MCU123_LPC1114_Kit_Release.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List\MCU123_LPC1114_Kit.map" -o ".\Object\MCU123_LPC1114_Kit.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Object\MCU123_LPC1114_Kit.axf'
+### ADS-LD Command File: '.\Object\MCU123_LPC1114_Kit.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Object\MCU123_LPC1114_Kit.lnp', Handle=0x0000040C
+### Writing '.lnp' file
+### ADS-LD Command file '.\Object\MCU123_LPC1114_Kit.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

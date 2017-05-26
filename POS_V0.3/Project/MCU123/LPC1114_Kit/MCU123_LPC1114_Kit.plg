@@ -1,0 +1,13 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\Develop\POS_V0.3\Project\MCU123\LPC1114_Kit\MCU123_LPC1114_Kit.uvproj
+Project File Date:  11/23/2014
+
+<h2>Output:</h2>
+Clean started: Project: 'MCU123_LPC1114_Kit'
+   deleting intermediate output files for target 'Target 1'
+Clean started: Project: 'MCU123_LPC1114_Kit'
+   deleting intermediate output files for target 'System'
