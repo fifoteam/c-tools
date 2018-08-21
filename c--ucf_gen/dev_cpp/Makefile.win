@@ -1,0 +1,28 @@
+# Project: ucfgen
+# Makefile created by Dev-C++ 5.6.1
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = ../src/ucfgen.o
+LINKOBJ  = ../src/ucfgen.o
+LIBS     = -L"d:/tools/Dev-Cpp/MinGW64/lib" -L"d:/tools/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"d:/tools/Dev-Cpp/MinGW64/include" -I"d:/tools/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"d:/tools/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
+CXXINCS  = -I"d:/tools/Dev-Cpp/MinGW64/include" -I"d:/tools/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"d:/tools/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"d:/tools/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
+BIN      = ucfgen.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+../src/ucfgen.o: ../src/ucfgen.c
+	$(CC) -c ../src/ucfgen.c -o ../src/ucfgen.o $(CFLAGS)
